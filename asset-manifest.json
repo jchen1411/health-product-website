@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/health-product-website/static/css/main.1de5692c.css",
+    "main.js": "/health-product-website/static/js/main.411cdfce.js",
+    "static/js/453.96f6ad2c.chunk.js": "/health-product-website/static/js/453.96f6ad2c.chunk.js",
+    "static/media/Tera-P90-copy.jpg": "/health-product-website/static/media/Tera-P90-copy.c370bae86badbd710d91.jpg",
+    "static/media/OlyLife-Opportunity-Overview-Presentation_Page_02-copy.jpg": "/health-product-website/static/media/OlyLife-Opportunity-Overview-Presentation_Page_02-copy.31ea7ba80dbdcb4eefc7.jpg",
+    "static/media/olylifehq.webp": "/health-product-website/static/media/olylifehq.ddb5a5f6eaef0690f2e9.webp",
+    "static/media/aboutus.jpg": "/health-product-website/static/media/aboutus.ee72a11ffdc9b247512e.jpg",
+    "index.html": "/health-product-website/index.html",
+    "main.1de5692c.css.map": "/health-product-website/static/css/main.1de5692c.css.map",
+    "main.411cdfce.js.map": "/health-product-website/static/js/main.411cdfce.js.map",
+    "453.96f6ad2c.chunk.js.map": "/health-product-website/static/js/453.96f6ad2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de5692c.css",
+    "static/js/main.411cdfce.js"
+  ]
+}
