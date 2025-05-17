@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/health-product-website/static/css/main.a5046ba7.css",
-    "main.js": "/health-product-website/static/js/main.cef94e6f.js",
+    "main.js": "/health-product-website/static/js/main.e2f026a1.js",
     "static/js/453.96f6ad2c.chunk.js": "/health-product-website/static/js/453.96f6ad2c.chunk.js",
     "static/media/Tera-P90-copy.jpg": "/health-product-website/static/media/Tera-P90-copy.c370bae86badbd710d91.jpg",
     "static/media/Tera-P90.jpg": "/health-product-website/static/media/Tera-P90.c370bae86badbd710d91.jpg",
@@ -18,11 +18,11 @@
     "static/media/3-dot.webp": "/health-product-website/static/media/3-dot.ac0ad3f9d0777586a6ab.webp",
     "index.html": "/health-product-website/index.html",
     "main.a5046ba7.css.map": "/health-product-website/static/css/main.a5046ba7.css.map",
-    "main.cef94e6f.js.map": "/health-product-website/static/js/main.cef94e6f.js.map",
+    "main.e2f026a1.js.map": "/health-product-website/static/js/main.e2f026a1.js.map",
     "453.96f6ad2c.chunk.js.map": "/health-product-website/static/js/453.96f6ad2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5046ba7.css",
-    "static/js/main.cef94e6f.js"
+    "static/js/main.e2f026a1.js"
   ]
 }
