@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "/health-product-website/static/css/main.1de5692c.css",
-    "main.js": "/health-product-website/static/js/main.411cdfce.js",
+    "main.css": "/health-product-website/static/css/main.a5046ba7.css",
+    "main.js": "/health-product-website/static/js/main.cef94e6f.js",
     "static/js/453.96f6ad2c.chunk.js": "/health-product-website/static/js/453.96f6ad2c.chunk.js",
     "static/media/Tera-P90-copy.jpg": "/health-product-website/static/media/Tera-P90-copy.c370bae86badbd710d91.jpg",
+    "static/media/Tera-P90.jpg": "/health-product-website/static/media/Tera-P90.c370bae86badbd710d91.jpg",
     "static/media/OlyLife-Opportunity-Overview-Presentation_Page_02-copy.jpg": "/health-product-website/static/media/OlyLife-Opportunity-Overview-Presentation_Page_02-copy.31ea7ba80dbdcb4eefc7.jpg",
+    "static/media/Galaxy-G1.jpg": "/health-product-website/static/media/Galaxy-G1.4afa399f45a9e37bae7d.jpg",
+    "static/media/title.png": "/health-product-website/static/media/title.fad448ed92b15129ea23.png",
     "static/media/olylifehq.webp": "/health-product-website/static/media/olylifehq.ddb5a5f6eaef0690f2e9.webp",
+    "static/media/P90-Plus.jpg": "/health-product-website/static/media/P90-Plus.b37abec66f6e271e2d0b.jpg",
+    "static/media/bonsai.webp": "/health-product-website/static/media/bonsai.7e1a4eda8d570cb78899.webp",
+    "static/media/woman-med.webp": "/health-product-website/static/media/woman-med.7319fd3da9649adf23f0.webp",
+    "static/media/smiling-guy.webp": "/health-product-website/static/media/smiling-guy.67c2202d9359fac4bfb3.webp",
+    "static/media/smilin-lady.webp": "/health-product-website/static/media/smilin-lady.64a7ec137dc94c11bb84.webp",
     "static/media/aboutus.jpg": "/health-product-website/static/media/aboutus.ee72a11ffdc9b247512e.jpg",
+    "static/media/3-dot.webp": "/health-product-website/static/media/3-dot.ac0ad3f9d0777586a6ab.webp",
     "index.html": "/health-product-website/index.html",
-    "main.1de5692c.css.map": "/health-product-website/static/css/main.1de5692c.css.map",
-    "main.411cdfce.js.map": "/health-product-website/static/js/main.411cdfce.js.map",
+    "main.a5046ba7.css.map": "/health-product-website/static/css/main.a5046ba7.css.map",
+    "main.cef94e6f.js.map": "/health-product-website/static/js/main.cef94e6f.js.map",
     "453.96f6ad2c.chunk.js.map": "/health-product-website/static/js/453.96f6ad2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1de5692c.css",
-    "static/js/main.411cdfce.js"
+    "static/css/main.a5046ba7.css",
+    "static/js/main.cef94e6f.js"
   ]
 }
