@@ -1,0 +1,135 @@
+.shop-page {
+  padding: 2rem 0;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.shop-title {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin-bottom: 2.2rem;
+  color: #1957b7;
+  letter-spacing: -1.1px;
+}
+
+.shop-products {
+  display: flex;
+  justify-content: center;
+  gap: 2.8rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.shop-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(36, 120, 197, 0.13);
+  padding: 1.8rem 1.3rem 2.2rem 1.3rem;
+  max-width: 370px;
+  min-width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-card-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  gap: 0.4rem;
+}
+
+.shop-card img {
+  width: 195px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 13px;
+  margin-bottom: 0.5rem;
+  background: #f6f9f8;
+}
+
+.brand-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #314c3e;
+  text-transform: uppercase;
+}
+.olylife-logo {
+  width: 40px;
+  height: auto;
+}
+
+.shop-card h2 {
+  font-size: 1.35rem;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 1.2rem 0 0.8rem 0;
+  color: #29354c;
+  min-height: 3rem;
+}
+
+.shop-price {
+  font-size: 2rem;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: #b0a13b;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+.shop-payment {
+  font-size: 1.1rem;
+  color: #5b616b;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+.shop-payment span {
+  font-weight: 700;
+  color: #283438;
+}
+
+.afterpay-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.afterpay-logo {
+  width: 32px;
+  height: auto;
+  background: none;
+}
+.afterpay-info {
+  font-size: 1rem;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #093;
+  font-weight: 600;
+}
+.afterpay-info .info {
+  background: #d7dfd3;
+  color: #333;
+  border-radius: 50%;
+  padding: 1px 6px;
+  margin-left: 2px;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 850px) {
+  .shop-products {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}

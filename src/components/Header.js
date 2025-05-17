@@ -15,9 +15,7 @@ function Header() {
         </span>
         <nav className="header-nav">
           <Link to="/">Home</Link>
-          <Link to="/products">Products</Link>
-          <Link to="/benefits">Why OlyLife</Link>
-          <Link to="/testimonials">Stories</Link>
+          <Link to="/shop">Shop</Link>
           <Link to="/about">About</Link>
         </nav>
       </div>

@@ -7,10 +7,8 @@ import Footer from './components/Footer';
 
 
 import HomePage from './pages/HomePage';
-import ProductsPage from './pages/ProductsPage';
-import BenefitsPage from './pages/BenefitsPage';
-import TestimonialsPage from './pages/TestimonialsPage';
 import AboutPage from './pages/AboutPage';
+import ShopPage from './pages/ShopPage';
 
 function App() {
   return (
@@ -18,9 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/products" element={<ProductsPage />} />
-        <Route path="/benefits" element={<BenefitsPage />} />
-        <Route path="/testimonials" element={<TestimonialsPage />} />
+        <Route path="/shop" element={<ShopPage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
       <Footer />

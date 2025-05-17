@@ -1,19 +1,27 @@
 import React from 'react';
-import HeroSection from '../components/HeroSection';
-import ProductShowcase from '../components/ProductShowcase';
-import BenefitsSection from '../components/BenefitsSection';
-import Testimonials from '../components/Testimonials';
-import Footer from '../components/Footer';
+import DualTechSection from '../HomePage/DualTechSection';
+import BenefitSection from '../HomePage/BenefitSection';
+import FeaturedProductSection from '../HomePage/FeaturedProductSection';
+import WhatIsSection from '../HomePage/WhatIsSection';
+import P90PlusSection from '../HomePage/P90PlusSection';
+import TerahertzSection from '../HomePage/TerahertzSection';
+import GalaxyGOneSection from '../HomePage/GalaxyGOneSection';
+import TitleSection from '../HomePage/TitleSection';
+
 
 function HomePage() {
   return (
-    <>
-      <HeroSection />
-      <ProductShowcase />
-      <BenefitsSection />
-      <Testimonials />
-      <Footer />
-    </>
+    <div className="home-content">
+      <TitleSection />
+      <DualTechSection />
+      <BenefitSection />
+      <FeaturedProductSection />
+      <WhatIsSection />
+      <P90PlusSection />
+      <TerahertzSection />
+      <GalaxyGOneSection/>
+ 
+    </div>
   );
 }
 

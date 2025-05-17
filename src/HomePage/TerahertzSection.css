@@ -1,0 +1,194 @@
+.terahertz-section-outer {
+  position: relative;
+  min-height: 420px;
+  margin: 0;
+  background: #e8ecec;  /* soft gray */
+  padding-bottom: 3.5rem;
+  overflow: hidden;
+}
+
+.terahertz-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+.terahertz-dots .dot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #283438;
+}
+.terahertz-dots .dot2 {
+  background: #ecc073;
+}
+.terahertz-dots .dot3 {
+  background: #f29e58;
+}
+
+.terahertz-section-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3.5rem;
+  border-radius: 18px;
+  background: transparent;
+  padding: 2.5rem 2rem 1.5rem 2rem;
+  margin: 0 auto;
+  width: 95%;
+  transition: all 0.7s cubic-bezier(0.77,0,0.175,1);
+  max-width: 1400px;
+  min-height: 360px;
+}
+
+.side-anim {
+  opacity: 0;
+  transition:
+    opacity 0.8s cubic-bezier(0.77,0,0.175,1),
+    transform 0.8s cubic-bezier(0.77,0,0.175,1);
+  will-change: transform, opacity;
+}
+
+.terahertz-image-left.side-anim {
+  transform: translateX(-80px);
+}
+.terahertz-content-right.side-anim {
+  transform: translateX(80px);
+}
+
+.terahertz-section-inner.centered .side-anim.animate-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.terahertz-image-left {
+  flex: 1 1 480px;
+  min-width: 280px;
+  max-width: 430px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.image-circle-bg {
+  width: 380px;
+  height: 380px;
+  max-width: 90vw;
+  max-height: 90vw;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  margin-top: -5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 36px rgba(120,120,120,0.08);
+  border: 6px solid #fff;
+}
+.image-circle-bg img {
+  width: 92%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50% 50% 40% 60% / 65% 55% 70% 65%; /* irregular mask effect */
+  border: 3px solid #eee;
+  box-shadow: 0 2px 12px rgba(100,120,110,0.09);
+  background: #c5d3d1;
+}
+
+.terahertz-content-right {
+  flex: 2 1 600px;
+  min-width: 340px;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 3.5rem;
+}
+
+.terahertz-content-right h2 {
+  font-size: 2.6rem;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin: 0 0 1.2rem 0;
+  color: #29354c;
+  line-height: 1.06;
+}
+.terahertz-content-right .terahertz-bold {
+  font-size: 2.7rem;
+  color: #29354c;
+  font-weight: 900;
+}
+.terahertz-content-right .terahertz-regular {
+  font-size: 2.3rem;
+  color: #4d585d;
+  font-weight: 400;
+}
+
+.terahertz-content-right p {
+  font-size: 1.08rem;
+  color: #46525c;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 1.2rem 0 2.2rem 0;
+  line-height: 1.68;
+}
+
+.terahertz-buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+.shop-btn {
+  padding: 0.85rem 2.1rem;
+  border-radius: 2rem;
+  border: none;
+  background: #033b2f;
+  color: #fff;
+  font-size: 1.18rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.shop-btn:hover { background: #055242; }
+.learn-btn {
+  padding: 0.85rem 2.1rem;
+  border-radius: 2rem;
+  background: #fff;
+  color: #033b2f;
+  font-size: 1.18rem;
+  font-weight: 700;
+  border: 2px solid #109447;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+}
+.learn-btn:hover { background: #eafbe7; color: #077935; }
+
+@media (max-width: 1050px) {
+  .terahertz-section-inner,
+  .terahertz-section-inner.centered {
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+    width: 100vw;
+  }
+  .terahertz-content-right {
+    margin-top: 0.5rem;
+    max-width: 100vw;
+    min-width: 0;
+  }
+  .terahertz-image-left {
+    margin-bottom: 1.3rem;
+    max-width: 100vw;
+    min-width: 0;
+  }
+  .image-circle-bg {
+    width: 75vw;
+    height: 75vw;
+    margin-top: 0;
+  }
+  .side-anim,
+  .terahertz-section-inner.centered .side-anim.animate-in {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
