@@ -1,0 +1,121 @@
+/* ---- HEADER ---- */
+.site-header {
+  background: #fff;
+  color: #1957b7;
+  box-shadow: 0 2px 12px rgba(53,163,226,0.07);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding: 1.3rem 0 1.1rem 0;
+  font-size: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.site-logo {
+  margin-right: 18px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(53,163,226,0.07);
+  padding: 4px 8px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-nav a {
+  color: #1957b7;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.09rem;
+  transition: color 0.18s, background 0.18s;
+  padding: 0.18rem 0.8rem;
+  border-radius: 8px;
+}
+
+.header-nav a:hover, .header-nav a.active {
+  background: #35a3e2;
+  color: #fff;
+}
+
+/* ---- FOOTER ---- */
+.site-footer {
+  background: #fff;
+  color: #1957b7;
+  box-shadow: 0 -2px 12px rgba(53,163,226,0.07);
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  padding: 1.2rem 0 0.3rem 0;
+  margin-top: 2.8rem;
+  font-size: 1rem;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto 0.7rem auto;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  margin-right: 16px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(53,163,226,0.07);
+  padding: 4px 7px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-nav a {
+  color: #1957b7;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.05rem;
+  transition: color 0.18s, background 0.18s;
+  padding: 0.1rem 0.7rem;
+  border-radius: 8px;
+}
+
+.footer-nav a:hover {
+  background: #35a3e2;
+  color: #fff;
+}
+
+.footer-copy {
+  text-align: center;
+  color: #385492;
+  font-size: 0.96rem;
+  margin-bottom: 0.4rem;
+  opacity: 0.82;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 600px) {
+  .header-inner, .footer-inner {
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+  .header-nav, .footer-nav {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

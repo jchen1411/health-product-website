@@ -1,0 +1,198 @@
+body {
+  background: #f7f9fc;
+}
+.about-text p {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 1rem;     /* Smaller than default, adjust as needed */
+  color: #203149;         /* Use your preferred dark gray */
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+
+
+.about-hero-section p {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #101622;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.about-hero-section {
+  margin-bottom: 3rem;      /* space below the hero description */
+  margin-top: 6rem;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem 3rem 1rem;
+  background: #f7f9fc;  /* Main background color for the whole page */
+}
+
+.about h1 {
+  font-size: 4rem;       /* Make it big! Increase or decrease as you want */
+  font-weight: 800;        /* Bold for emphasis */
+  margin: 0;               /* Remove default margin for better positioning */
+  letter-spacing: 2px;     /* Spaced out for hero feel (optional) */
+  text-shadow: 0 2px 12px rgba(0,0,0,0.2); /* Optional: soft shadow for readability on background */
+}
+
+.about {
+  background: 
+    url('../assets/images/AboutPage/aboutus.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  box-shadow: 0 4px 32px rgba(36, 120, 197, 0.10);
+  text-align: center;
+  margin-bottom: 2.3rem;
+  position: relative;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;          /* Make the section fill the viewport width */
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;    /* These three lines */
+  margin-right: -50vw;   /* center the section if inside a centered parent */
+  margin-bottom: 2.3rem;
+  box-sizing: border-box;
+}
+
+
+/* Frameless section styling */
+.about-row {
+  display: flex;
+  align-items: stretch; 
+  align-items: center;
+  background: transparent;         /* no white bg */
+  border-radius: 0;                /* no rounded corners */
+  box-shadow: none;                /* no shadow */
+  margin-top: 2rem;
+  margin-bottom: 2.4rem;
+  padding: 2.3rem 0;               /* less padding for clean look */
+  gap: 2.7rem;
+  flex-wrap: wrap;
+}
+
+.hero-image-row {
+  display: flex;
+  align-items: center;          /* vertical center */
+  justify-content: center;      /* horizontal center */
+  min-height: 315px;            /* matches your video/image section height */
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  
+}
+.about-section-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;    /* space above, adjust as needed */
+  margin-top: 2rem;
+}
+
+.about-section-img img {
+  max-width: 80%;      /* responsive */
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+/* For all cols */
+.about-col {
+  flex: 1 1 340px;
+  min-width: 260px;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 370px;
+  border-radius: 0;                /* no rounded image corners */
+  box-shadow: none;                /* no image shadow */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-row-vision .about-img img {
+  max-width: 700px;     /* Increase as desired */
+  width: 100%;
+  height: 100%;
+  min-height: 400px;    /* Optional: makes it visually larger, matches text height if text is tall */
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Section 2: force correct layout */
+.about-video-row {
+  flex-direction: row;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.about-video-row .about-video {
+  flex: 1 1 340px;
+  min-width: 260px;
+}
+.about-row-belief .about-img img {
+  max-width: 700px;      /* or any large size you prefer */
+  width: 100%;
+  height: 100%;
+  min-height: 400px;     /* adjust for more height */
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-video-row .about-video iframe {
+  width: 100%;
+  height: 315px;
+  border-radius: 0;                /* no rounded corners */
+  box-shadow: none;                /* no shadow */
+  border: none;
+  display: block;
+}
+
+.about-video-row .about-text {
+  flex: 1 1 340px;
+  min-width: 260px;
+}
+
+/* Headings and text */
+.about-text h2 {
+  color: #1957b7;
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 1.1rem;
+  line-height: 1.2;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* Responsive for mobile */
+@media (max-width: 780px) {
+  .about-row,
+  .about-video-row {
+    flex-direction: column !important;
+    gap: 1.3rem;
+    padding: 1.1rem 0.7rem;
+  }
+  .about-img img,
+  .about-video-row .about-video iframe {
+    max-width: 98vw;
+    height: 220px;
+  }
+  .about-col,
+  .about-video-row .about-video,
+  .about-video-row .about-text {
+    min-width: 0;
+  }
+}
